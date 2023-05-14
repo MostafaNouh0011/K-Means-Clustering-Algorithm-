@@ -74,8 +74,8 @@ def plot_clusters(idx, centoids):
     plt.show()
 
 
-# load data
-data = loadmat('E:\\Machine_learning\\Unsupervised_ML\\ex7data2.mat')
+# load MATLAB data
+data = loadmat('ex7data2.mat')
 X = data['X']
 # print(X)
 # print(X.shape)  # (300, 2)
